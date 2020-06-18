@@ -1,0 +1,159 @@
+/*-------------------- Post an Ad Styeling ---------------------*/
+.ad-btns {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.ad-btns:hover {
+    background: #fff;
+    color: #ff6600;
+}
+.ad-cell-card h4 i {
+    margin-right: 5px;
+}
+.ad-cell-card h4 {
+    background: #f5f5f5;
+    padding: 10px 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #d8d6d9;
+}
+.ad-cell-card {
+    border: 1px solid #d8d6d9;
+    margin-bottom: 30px;
+}
+.ad-cell-card label {
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+.ad-cell-card .col-inside {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.ad-cell-card input, .ad-cell-card textarea {
+    border: 1px solid #d8d6d9;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.ad-cell-card textarea{
+    height: 100px;
+    margin-bottom: 0px;
+}
+.ad-cell-card .menu-open {
+    display: none;
+}
+.inside-list li i {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.inside-list ul {
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #d8d6d9;
+    border-left: 1px solid #d8d6d9;
+}
+.inside-list li a {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.inside-list li a:hover {
+    background: #f5f5f5;
+}
+.inside-list li {
+    border-bottom: 1px solid #d8d6d9;
+    border-right: 1px solid #d8d6d9;
+    text-align: center;
+    font-size: 14px;
+    width: 33.33333%;
+    max-height: 33.33333%;
+}
+.col-inside .ad-btns {
+    float: right;
+    margin-top: 20px;
+}
+.selected-list p span {
+    font-weight: 600;
+}
+.gren-select {
+    color: #52a744;
+}
+.selected-list p {
+    margin-bottom: 0px;
+}
+.postl-code-form {
+    max-width: 250px;
+    position: relative;
+}
+.postl-code-form input {
+    margin-top: 10px;
+}
+.postl-code-form button {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background: #ff6600;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 11px 14px;
+    border: none;
+}
+.select-postal-code .checkbox {
+    margin-bottom: 0px;
+}
+.select-postal-code .checkbox label {
+    line-height: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.postal-code-location {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ad-tg-pst {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.ad-tg-pst h4 {
+    color: #fff;
+}
+.eql-inout {
+    line-height: 44px;
+}
+.ad-tg-pst .prices {
+    float: right;
+    color: #fff;
+}
+.select-postal-code p {
+    margin-bottom: 10px;
+}
+.postl-code-form {
+    position: relative;
+}

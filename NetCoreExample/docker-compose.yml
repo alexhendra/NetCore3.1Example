@@ -1,0 +1,28 @@
+version: '3.4'
+networks:
+    backend:
+
+services:
+  netcoreexample.ui:
+    image: ${DOCKER_REGISTRY-}netcoreexampleui
+    build:
+      context: .
+      dockerfile: NetCoreExample.UI/Dockerfile    
+    container_name: webapp
+    environment:
+      - RedisServer=redis
+      - RedisInstanceName=NetCoreExampleCache
+      - RedisPassword=testlocalredis
+    ports:
+      - "5000:80"
+    networks:
+      - backend
+   
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    container_name: rediscontainer
+    command: redis-server --requirepass testlocalredis
+    networks: 
+      - backend
