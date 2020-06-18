@@ -6,3 +6,4 @@ Sample Project to use :
 * Docker-compose
 * Dapper (ORM)
 * Redis Cache
+* Sql Server
