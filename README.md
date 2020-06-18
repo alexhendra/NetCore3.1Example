@@ -8,4 +8,6 @@ Sample Project to use :
 * Redis Cache
 * Sql Server
 --------------------------------------
-To Install : docker-compose up
+To run : 
+1. Execute Sql Script : script.sql
+2. Run in your terminal : docker-compose up
