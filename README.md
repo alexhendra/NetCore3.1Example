@@ -7,3 +7,5 @@ Sample Project to use :
 * Dapper (ORM)
 * Redis Cache
 * Sql Server
+--------------------------------------
+To Install : docker-compose up
